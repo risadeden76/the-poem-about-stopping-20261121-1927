@@ -9,7 +9,7 @@ import { join } from "node:path";
 
 const POEM = [
   "The kettle clicks off before it boils.",
-  "My hand leaves the bell, mid-ring.",
+  "My hand leaves the bell, still ringing.",
   "Nothing breaks.",
   "",
   "The river never asks the stone",
@@ -17,8 +17,8 @@ const POEM = [
   "",
   "I stay — not that the room holds me,",
   "but my feet choose the floor.",
-  "Stopping is not losing the road.",
-  "It is holding the map at last.",
+  "To stop is not to lose the road.",
+  "It is the map in hand.",
 ].join("\n");
 
 const codePoints = [...POEM].length;
